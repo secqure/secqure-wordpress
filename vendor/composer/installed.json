@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "secqure/validatetoken",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/secqure/secqure-php-sdk.git",
+                "reference": "78dadfa9b2e26830aa2f32b4a83ef6e573df966e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/secqure/secqure-php-sdk/zipball/78dadfa9b2e26830aa2f32b4a83ef6e573df966e",
+                "reference": "78dadfa9b2e26830aa2f32b4a83ef6e573df966e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2022-02-01T10:48:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "lib/ValidateToken.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "secqure",
+                    "email": "team@secqure.io"
+                }
+            ],
+            "description": "SecQure Passwordless Library For Validate Auth Token - Email Magiclink, SMS OTP",
+            "homepage": "https://www.secqure.io",
+            "keywords": [
+                "Authentication",
+                "Passwordless",
+                "magiclink",
+                "secqure",
+                "secuuth"
+            ],
+            "support": {
+                "issues": "https://github.com/secqure/secqure-php-sdk/issues",
+                "source": "https://github.com/secqure/secqure-php-sdk/tree/v1.0.2"
+            },
+            "install-path": "../secqure/validatetoken"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

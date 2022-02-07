@@ -1,0 +1,22 @@
+{
+    "name": "secqure/validatetoken",
+    "type": "library",
+    "description": "SecQure Passwordless Library For Validate Auth Token - Email Magiclink, SMS OTP",
+    "keywords": ["secqure", "passwordless", "magiclink", "authentication","secuuth"],
+    "homepage": "https://www.secqure.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "secqure",
+            "email": "team@secqure.io"
+        }        
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/ValidateToken.php"
+        ]
+    }
+}
